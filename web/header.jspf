@@ -1,0 +1,22 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c" %>
+<%@ page pageEncoding="UTF-8" %>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Salxeso2</title>
+
+    </head>
+    <body>
+        <c:url value="index.jsp" var="index"/>
+        <div class="head">
+            <h1>Salxeso</h1>
+            <a href="${index}">Nová hra</a>
+        </div>
+
+
+
